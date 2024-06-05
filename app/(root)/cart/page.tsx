@@ -160,10 +160,6 @@ const Cart = () => {
                 />
               )}
 
-<PayPalButton
-                  amount={totalPriceWithVat}
-                  onSuccess={handleSuccess}
-                />
             </div>
           </div>
         </div>
